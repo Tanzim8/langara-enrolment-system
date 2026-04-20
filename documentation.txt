@@ -1,0 +1,57 @@
+How to Install and Run the Application
+
+To run this project, both the back-end and front-end must be started separately.
+
+Requirements
+
+Before running the application, make sure the following are installed on your computer:
+
+Node.js
+npm
+Back-end Setup
+Open a terminal.
+Go to the express folder:
+cd project/express
+Install the required packages:
+npm install
+Start the Express server:
+npm start
+
+The back-end server will run on port 3000.
+
+Front-end Setup
+Open a second terminal.
+Go to the react folder:
+cd project/react
+Install the required packages:
+npm install
+Start the React application:
+npm start
+
+The front-end will open in the browser using the local URL provided by Parcel.
+
+Database
+
+The SQLite database file is included in the project. The file database-setup.sql is also included and can be used to rebuild the database from scratch if needed.
+
+How to Use the Application
+In Student View, enter a student ID and click Load My Enrolments.
+Students can view available courses, enrol in a course, and drop a course.
+In Admin View, the administrator can view all courses and see how many students are enrolled in each course.
+
+References: 
+1. During the development of this project, I used AI tools (such as ChatGPT) to assist me in understanding concepts, debugging issues, and improving my code.
+
+AI was mainly used for:
+
+Explaining programming concepts and project requirements
+Debugging errors in JavaScript, Express, and React
+Helping design API routes and database structure
+Providing guidance on frontend implementation and UI improvements
+Assisting with writing documentation and improving clarity
+
+All core logic, implementation decisions, and final code were reviewed and understood by me. AI was used as a learning and support tool, and I ensured that I fully understand how every part of the application works.
+2. https://react.dev/learn
+3. https://www.sqlite.org/docs.html
+4. https://www.sqlite.org/docs.html
+5. https://learning.postman.com/docs/
